@@ -1,0 +1,11 @@
+# Parts configuation to drive donkeycar and collect data for training a model
+# add (uncomment) or delete (comment) part names
+
+parts:
+    donkeycar.vehicleparts.pygameps4_joystick: PyGamePS4JoystickController
+    donkeycar.vehicleparts.pilotcondition: PilotCondition
+    donkeycar.vehicleparts.aipilot: AI_Pilot
+    donkeycar.vehicleparts.drivemode: DriveMode
+    donkeycar.vehicleparts.dgym: DonkeyGymEnv
+    donkeycar.vehicleparts.tub_v2: TubWriter
+    donkeycar.vehicleparts.dashboard: Dashboard
